@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+platform :ios, '10.0'
+
+target 'FDFLEX_Example' do
+  pod 'FDFLEX', :path => '../'
+
+  target 'FDFLEX_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
